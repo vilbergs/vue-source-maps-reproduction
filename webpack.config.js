@@ -24,6 +24,7 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
+              // Removing or setting this to true will inject the base64 encoded sourcemap into injected <style> tags
               sourceMap: false,
             },
           },
